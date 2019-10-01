@@ -2,6 +2,8 @@
 ####    Script exemplo   ####
 #############################
 
+# OBSOLETO
+
 #Instalando os pacotes, se necessário
 packages = c("leaflet", "dplyr", "raster", "dismo")
 for (p in setdiff(packages, installed.packages()[, "Package"])) {
